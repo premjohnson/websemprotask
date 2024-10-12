@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            position: relative;
+        }
+
+        nav {
+            background-color: #3498db;
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+            height: 100vh;
+            transition: transform 0.3s ease;
+            transform: translateX(-100%);
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            display: block;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        section {
+            padding: 50px;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        .hover-area {
+            width: 50px;
+            height: 100vh;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: transparent;
+        }
+
+        .toggle-btn {
+            position: absolute;
+            left: 60px; /* Position to the right of the hover area */
+            top: 20px; /* Adjust top position as needed */
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .toggle-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover-area"></div>
+    <button class="toggle-btn" onclick="toggleNavbar()">Toggle Menu</button>
+    <nav id="navbar">
+        <a href="#section1" onclick="hideNavbar()">Section 1</a>
+        <a href="#section2" onclick="hideNavbar()">Section 2</a>
+        <a href="#section3" onclick="hideNavbar()">Section 3</a>
+    </nav>
+    <div class="content">
+        <section id="section1">
+            <h2>Section 1</h2>
+            <p>This is the content of Section 1. You can add more information here.</p>
+        </section>
+        <section id="section2">
+            <h2>Section 2</h2>
+            <p>This is the content of Section 2. Feel free to expand on this topic.</p>
+        </section>
+        <section id="section3">
+            <h2>Section 3</h2>
+            <p>This is the content of Section 3. Add any additional details you'd like.</p>
+        </section>
+    </div>
+    <script>
+        function hideNavbar() {
+            document.getElementById('navbar').style.transform = 'translateX(-100%)';
+        }
+
+        function toggleNavbar() {
+            const navbar = document.getElementById('navbar');
+            if (navbar.style.transform === 'translateX(-100%)' || navbar.style.transform === '') {
+                navbar.style.transform = 'translateX(0)';
+            } else {
+                navbar.style.transform = 'translateX(-100%)';
+            }
+        }
+    </script>
+</body>
+</html>

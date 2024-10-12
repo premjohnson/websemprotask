@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Selector Example</title>
+    <style>
+        /* ID selector for the first input field */
+        #inputOne {
+            border: 2px solid blue; /* Blue border */
+            padding: 10px; /* Padding inside the input */
+            font-size: 16px; /* Font size */
+            margin-bottom: 15px; /* Margin below the input */
+            width: 80%; /* Full width */
+        }
+
+        /* ID selector for the second input field */
+        #inputTwo {
+            border: 2px solid green; /* Green border */
+            padding: 10px; /* Padding inside the input */
+            font-size: 16px; /* Font size */
+            margin-bottom: 15px; /* Margin below the input */
+            width: 80%; /* Full width */
+        }
+
+        /* ID selector for the featured section */
+        #featured {
+            border: 2px solid #f39c12; /* Orange border */
+            padding: 20px; /* Padding inside the section */
+            background-color: #ecf0f1; /* Light gray background */
+            margin-top: 20px; /* Margin above the section */
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="inputOne">Input Field 1:</label>
+        <input type="text" id="inputOne" placeholder="Enter first input"><br>
+
+        <label for="inputTwo">Input Field 2:</label>
+        <input type="text" id="inputTwo" placeholder="Enter second input"><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <section id="featured">
+        <h2>Featured Section</h2>
+        <p>This section has a unique border and padding.</p>
+    </section>
+</body>
+</html>
