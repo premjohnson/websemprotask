@@ -1,0 +1,98 @@
+[
+    {
+      "question": "What does HTML stand for?",
+      "options": ["Hyper Text Markup Language", "Hot Mail", "How to Make Lasagna"],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": ["<a>", "<link>", "<href>"],
+      "answer": "<a>"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Cascading Style Sheets", "Creative Style System", "Computer Style Sheets"],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "question": "Which attribute is used to specify the path to an external stylesheet?",
+      "options": ["href", "src", "link"],
+      "answer": "href"
+    },
+    {
+      "question": "What does the 'alt' attribute in an <img> tag define?",
+      "options": ["Image URL", "Image Description", "Image Size"],
+      "answer": "Image Description"
+    },
+    {
+      "question": "Which HTML tag is used to define an unordered list?",
+      "options": ["<ul>", "<ol>", "<li>"],
+      "answer": "<ul>"
+    },
+    {
+      "question": "What is the default display property of a <div> element?",
+      "options": ["inline", "block", "flex"],
+      "answer": "block"
+    },
+    {
+      "question": "Which CSS property controls the text size?",
+      "options": ["font-style", "text-size", "font-size"],
+      "answer": "font-size"
+    },
+    {
+      "question": "Which tag is used to define a table row in HTML?",
+      "options": ["<th>", "<tr>", "<td>"],
+      "answer": "<tr>"
+    },
+    {
+      "question": "In CSS, which property is used to change the background color of an element?",
+      "options": ["background-color", "color", "bgcolor"],
+      "answer": "background-color"
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "options": ["<br>", "<hr>", "<break>"],
+      "answer": "<br>"
+    },
+    {
+      "question": "Which CSS property is used to change the font of text?",
+      "options": ["font-family", "font-style", "text-font"],
+      "answer": "font-family"
+    },
+    {
+      "question": "Which HTML attribute is used to define inline styles?",
+      "options": ["class", "style", "id"],
+      "answer": "style"
+    },
+    {
+      "question": "Which HTML element is used to specify a header for a document or section?",
+      "options": ["<header>", "<section>", "<div>"],
+      "answer": "<header>"
+    },
+    {
+      "question": "What does the 'float' property in CSS do?",
+      "options": ["Moves an element to the left or right", "Centers an element", "Expands an element"],
+      "answer": "Moves an element to the left or right"
+    },
+    {
+      "question": "What is the purpose of the 'id' attribute in HTML?",
+      "options": ["To define an element's identity", "To define a class for multiple elements", "To define inline CSS"],
+      "answer": "To define an element's identity"
+    },
+    {
+      "question": "Which CSS property is used to add space between the content and the border of an element?",
+      "options": ["margin", "padding", "border"],
+      "answer": "padding"
+    },
+    {
+      "question": "Which HTML tag is used to define an interactive clickable button?",
+      "options": ["<button>", "<input>", "<click>"],
+      "answer": "<button>"
+    },
+    {
+      "question": "In HTML, which attribute is used to specify that an input field must be filled out before submitting the form?",
+      "options": ["required", "placeholder", "value"],
+      "answer": "required"
+    }
+  ]
+  
